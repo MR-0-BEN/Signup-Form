@@ -1,5 +1,3 @@
-Certainly! Here's the updated README file with the addition of Tailwind CSS and React Hook Form to the list of technologies used in the project:
-
 # Signup Form Project
 
 <div style="display: flex; justify-content: space-between;">
@@ -10,6 +8,9 @@ Certainly! Here's the updated README file with the addition of Tailwind CSS and 
         <img src="public/design/mobile-design.jpg" alt="Mobile version">
     </div>
 </div>
+
+## Signup Form Site
+[**Signup Form**](https://signup-form-one-kappa.vercel.app/)
 
 ## Table of Contents
 
