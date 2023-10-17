@@ -2,26 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+@layer components {
+  .shadow-bottom-card {
+    @apply before:absolute before:left-0 before:top-[10px]  before:-z-10 before:h-full before:w-full before:rounded-lg  before:bg-black/10;
   }
-}
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  .input-style {
+    @apply relative md:mb-5 max-md:mb-3 max-md:pl-6 w-full rounded-md border-[1px] border-black/20  px-8 py-4 font-medium caret-[#5d54a3] outline-none placeholder:font-medium placeholder:text-[#6a6a6c]  focus:border-black/80 focus:font-medium;
+  }
+  .input-error {
+    @apply border-2 border-[#fe7476] placeholder:italic placeholder:text-[#fe7476] focus:border-[#fe7476];
+  }
+  .error-message {
+    @apply relative mb-6 mt-[-15px] block w-full text-right text-xs font-medium italic text-[#fe7476] max-md:mt-[-7px] max-md:mb-[6px] max-md:mr-[5px] ;
+  }
+  .input-error-icon {
+    @apply before:absolute before:right-7 before:top-[-48px] before:h-6 before:w-6 before:bg-[url('/icon-error.svg')] before:bg-no-repeat max-md:before:right-[10px];
+  }
 }
