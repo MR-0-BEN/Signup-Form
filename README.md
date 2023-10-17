@@ -4,10 +4,10 @@ Certainly! Here's the updated README file with the addition of Tailwind CSS and 
 
 <div style="display: flex; justify-content: space-between;">
     <div style="flex: 1;">
-        <img src="public/design/desktop-design.jpg" alt="Desktop version" width="562.5">
+        <img src="public/design/desktop-design.jpg" alt="Desktop version">
     </div>
     <div style="flex: 1;">
-        <img src="public/design/mobile-design.jpg" alt="Mobile version" width="187.5" >
+        <img src="public/design/mobile-design.jpg" alt="Mobile version">
     </div>
 </div>
 
