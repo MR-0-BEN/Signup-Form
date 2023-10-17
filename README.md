@@ -11,6 +11,16 @@ Certainly! Here's the updated README file with the addition of Tailwind CSS and 
     </div>
 </div>
 
+## Table of Contents
+
+
+1. [Project Description](#project-description)
+2. [Features](#features)
+3. [Technologies Used](#technologies-used)
+4. [Getting Started](#getting-started)
+5. [Usage](#usage)
+6. [License](#license)
+7. [Contact](#contact)
 
 ## Project Description
 
@@ -80,9 +90,6 @@ To run this project on your local machine, follow these steps:
 
 - Submit the form to create your account.
 
-## Contributing
-
-Contributions to this project are welcome. If you'd like to improve the Signup Form or report issues, please open an issue or create a pull request on the project's GitHub repository.
 
 ## License
 
