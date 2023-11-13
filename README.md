@@ -1,10 +1,10 @@
 # Signup Form Project
 
-<div style="display: flex; justify-content: space-between;">
-    <div style="flex: 1;">
+<div style="display: flex">
+    <div style="margin-right: 10px; margin-top: 200px">
         <img src="public/design/desktop-design.jpg" alt="Desktop version">
     </div>
-    <div style="flex: 1;">
+    <div >
         <img src="public/design/mobile-design.jpg" alt="Mobile version">
     </div>
 </div>
